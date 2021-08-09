@@ -3,12 +3,12 @@ import firsttask.FirstTaskClass;
 
 public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hi");
-        System.out.println("Another HiSe");
+    public static void main(String[] args)
+    {
         FirstTaskClass ftc = new FirstTaskClass();
-        ftc.Methof();
-
+        String ftcstr = "abc1de24fg56";
+        int x = ftc.SumOfDigits(ftcstr);
+        System.out.println("First Task: ");
+        System.out.println("Input: "+ ftcstr +"Output: "+x);
     }
 }
