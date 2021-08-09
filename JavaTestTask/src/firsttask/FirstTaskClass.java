@@ -2,7 +2,7 @@ package firsttask;
 
 public class FirstTaskClass
 {
-    public int SumOfDigits(String str)
+    public int sumOfDigits(String str)
     {
         int sum = 0;
         for(int i=0;i<str.length();i++)
